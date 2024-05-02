@@ -19,7 +19,3 @@ jobs:
           requirements: 'requirements.txt'
           upload_exe_with_name: 'SimpleDiary-macOS'
           options: --onefile, --name "SimpleDiary", --console, 
-      - uses: actions/upload-artifact@v3
-        with:
-          name: SimpleDiary-macOS
-          path: dist
