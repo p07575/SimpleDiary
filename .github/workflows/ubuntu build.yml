@@ -19,3 +19,8 @@ jobs:
           requirements: 'requirements.txt'
           upload_exe_with_name: 'SimpleDiary-ubuntu'
           options: --onefile, --name "SimpleDiary", --console, 
+      - uses: actions/upload-artifact@v3
+        with:
+          name: SimpleDiary-ubuntu
+          path: dist
+  
