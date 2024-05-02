@@ -1,5 +1,4 @@
 pycryptodome
-socket
 colorama
 keyboard
 datetime
