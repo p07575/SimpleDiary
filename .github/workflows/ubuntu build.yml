@@ -1,5 +1,5 @@
 
-name: Ubuntu-Build
+name: Ubuntu Build
 
 on:
   push:
