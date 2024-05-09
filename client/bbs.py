@@ -1,3 +1,4 @@
+# coding=utf-8
 #導庫
 import os
 import keyboard
